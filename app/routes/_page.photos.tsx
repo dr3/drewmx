@@ -18,7 +18,12 @@ export default function Index() {
       </p>
       {photos.map((photo) => (
         <a key={photo.url + "photo"} href={photo.url}>
-          <img src={photo.url} alt={photo.alt} className="page-photos_image" />
+          <img
+            src={photo.url}
+            alt={photo.alt}
+            className="page-photos_image"
+            style={{ aspectRatio: `${photo.height}/${photo.width}` }}
+          />
         </a>
       ))}
     </>
