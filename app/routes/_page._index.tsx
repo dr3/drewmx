@@ -15,7 +15,7 @@ export default function Index() {
         <h1>Hey! I'm Drew 👋</h1>
         <div>
           <p>
-            I am a Senior Web Engineer currently working at{" "}
+            I am a Staff Engineer currently working at{" "}
             <a href="https://www.thetrainline.com/">Trainline</a>. I’m primarily
             use a stack of Typescript, React, & Node to build Europe’s leading
             train and coach website. Most recently i’ve worked on updating our
