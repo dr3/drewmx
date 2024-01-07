@@ -1,10 +1,11 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import { description, title } from "~/config/constants";
 import links from "~/config/links";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Drew McMillan - Web Engineer" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: `Contact - ${title}` },
+    { name: "description", content: description },
   ];
 };
 

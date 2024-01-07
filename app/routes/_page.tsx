@@ -2,12 +2,10 @@ import type { MetaFunction } from "@remix-run/cloudflare";
 import { Outlet } from "@remix-run/react";
 import Footer from "~/components/Footer/Footer";
 import Header from "~/components/Header/Header";
+import { description, title } from "~/config/constants";
 
 export const meta: MetaFunction = () => {
-  return [
-    { title: "Drew McMillan - Web Engineer" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+  return [{ title }, { name: "description", content: description }];
 };
 
 export default function Index() {

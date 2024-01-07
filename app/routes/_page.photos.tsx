@@ -1,11 +1,12 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import "../routeStyles/_page.photos.css";
 import photos from "~/config/photos";
+import { description, title } from "~/config/constants";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Drew McMillan - Web Engineer" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: `Photos - ${title}` },
+    { name: "description", content: description },
   ];
 };
 

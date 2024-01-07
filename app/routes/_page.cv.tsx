@@ -1,4 +1,8 @@
-import type { MetaFunction } from "@remix-run/cloudflare";
+import {
+  redirect,
+  type MetaFunction,
+  LoaderFunction,
+} from "@remix-run/cloudflare";
 import "../routeStyles/_page.projects.css";
 import { description, title } from "~/config/constants";
 
@@ -9,10 +13,14 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+export const loader: LoaderFunction = async () => {
+  return redirect("/cv.pdf");
+};
+
 export default function Projects() {
   return (
     <>
-      <h1>Projects</h1>
+      <h1>CV</h1>
 
       <div
         className="page-projects_box"

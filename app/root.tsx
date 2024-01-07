@@ -8,12 +8,13 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import './components/Core/Font.css'
-import './components/Core/Reset.css'
-import './components/Core/Variables.css'
+import "./components/Core/Font.css";
+import "./components/Core/Reset.css";
+import "./components/Core/Variables.css";
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
+  { rel: "icon", href: "/images/favicon.png", type: "image/png" },
 ];
 
 export default function App() {

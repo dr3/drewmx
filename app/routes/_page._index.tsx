@@ -1,12 +1,4 @@
-import type { MetaFunction } from "@remix-run/cloudflare";
 import "../routeStyles/_page._index.css";
-
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Drew McMillan - Web Engineer" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
 
 export default function Index() {
   return (
