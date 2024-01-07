@@ -1,0 +1,10 @@
+.page-index_image {
+    border-radius: 1000px;
+}
+
+.page-index_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1rem;
+    margin: 64px 0;
+}
