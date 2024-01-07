@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    max-width: var(--main-page-width);
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 32px var(--main-page-padding);
+}
+
+nav a {
+    text-decoration: none;
+    transition: border .15s ease;
+    cursor: pointer;
+    font-weight: var(--main-link-weight);
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: var(--main-link-color);
+    border-bottom: 1px solid var(--main-link-underline-color);
+    transition: border .15s ease;
+    cursor: pointer;
+    font-weight: var(--main-link-weight);
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}

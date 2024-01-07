@@ -1,0 +1,11 @@
+:root {
+    --main-bg-color: #fcfbf7;
+    --main-text-color: #171717;
+    --main-heading-color: #171717;
+    --main-link-color: #cc0188;
+    --main-link-underline-color: #dddddd;
+
+    --main-page-width: 900px;
+    --main-link-weight: 600;
+    --main-page-padding: 16px;
+}

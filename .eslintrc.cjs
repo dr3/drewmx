@@ -21,7 +21,8 @@ module.exports = {
   },
 
   // Base config
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "prettier"],
+  plugins: ["prettier"],
 
   overrides: [
     // React

@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    max-width: var(--main-page-width);
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 32px var(--main-page-padding);
+    font-weight: 600;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}

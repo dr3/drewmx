@@ -1,15 +1,18 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import Footer from "~/components/Footer/Footer";
+import Header from "~/components/Header/Header";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Drew McMillan - Web Engineer" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
 
 export default function Index() {
-  return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+  return (<>
+    <Header />
+    <main>
       <h1>Welcome to Remix</h1>
       <ul>
         <li>
@@ -36,6 +39,8 @@ export default function Index() {
           </a>
         </li>
       </ul>
-    </div>
+    </main>
+    <Footer />
+  </>
   );
 }
