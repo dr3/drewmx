@@ -10,9 +10,9 @@ const Footer = () => {
             © {year} Drew McMillan
             </div>
             <div className='footer-links'>
-                <a href="/github"><IconBrandGithub /></a>
-                <a href="/twitter"><IconBrandTwitter /></a>
-                <a href="/threads"><IconBrandThreads /></a>
+                <a href="/github"><IconBrandGithub className='footer-icon' /></a>
+                <a href="/twitter"><IconBrandTwitter className='footer-icon' /></a>
+                <a href="/threads"><IconBrandThreads className='footer-icon' /></a>
             </div>
         </footer>)
 }

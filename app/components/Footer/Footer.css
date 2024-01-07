@@ -11,3 +11,8 @@ footer {
     display: flex;
     gap: 24px;
 }
+
+.footer-icon:hover {
+    stroke: var(--main-link-color);
+    transition: color .15s ease;
+}
