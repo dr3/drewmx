@@ -1,6 +1,4 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import Footer from "~/components/Footer/Footer";
-import Header from "~/components/Header/Header";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,9 +9,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (<>
-    <Header />
-    <main>
-      <h1>Welcome to Remix</h1>
+    <h1>Welcome to Remix</h1>
       <ul>
         <li>
           <a
@@ -39,8 +35,6 @@ export default function Index() {
           </a>
         </li>
       </ul>
-    </main>
-    <Footer />
   </>
   );
 }
