@@ -7,10 +7,12 @@ h1 {
     font-weight: 700;
     font-size: 48px;
     color: var(--main-heading-color);
+    margin-bottom: 16px;
 }
 h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: var(--main-heading-color);
+    margin-bottom: 16px;
 }
 
 main a {
@@ -30,4 +32,8 @@ main {
     max-width: var(--main-page-width);
     margin: 0 auto;
     padding: 32px var(--main-page-padding);
+}
+
+p {
+    margin-bottom: 16px;
 }

@@ -11,12 +11,13 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  return (<>
-    <Header />
-    <main>
-      <Outlet />
-    </main>
-    <Footer />
-  </>
+  return (
+    <>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </>
   );
 }

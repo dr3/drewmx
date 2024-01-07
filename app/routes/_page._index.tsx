@@ -8,8 +8,9 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  return (<>
-    <h1>Welcome to Remix</h1>
+  return (
+    <>
+      <h1>Welcome to Remix</h1>
       <ul>
         <li>
           <a
@@ -35,6 +36,6 @@ export default function Index() {
           </a>
         </li>
       </ul>
-  </>
+    </>
   );
 }
