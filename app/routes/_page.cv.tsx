@@ -30,7 +30,11 @@ export default function Projects() {
         <div className="page-projects_box_link">
           <a href="https://parallel.org.uk">parallel.org.uk</a>
         </div>
-        <p>Hehe</p>
+        <p>
+          A charitable mathematics project founded and run by bestselling
+          science author and maths educator,{" "}
+          <a href="https://en.wikipedia.org/wiki/Simon_Singh">Simon Singh</a>.
+        </p>
       </div>
 
       <div

@@ -14,7 +14,7 @@ const Header = () => {
           <a href="/photos">Photos</a>
           <a href="/projects">Projects</a>
           <a href="/cv">CV</a>
-          <a href="/blog">Blog</a>
+          {/* <a href="/blog">Blog</a> */}
         </div>
       </nav>
     </header>
