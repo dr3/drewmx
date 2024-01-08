@@ -8,9 +8,13 @@
     font-size: 12px;
 }
 
-.page-photos_image {
+.page-photos_image_wrapper {
     max-height: 45rem;
     max-width: 45rem;
+}
+
+.page-photos_image {
+    max-width: 100%;
     margin: 1rem auto;
     display: block;
     background-color: rgb(241, 241, 241);

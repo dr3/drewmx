@@ -8,3 +8,15 @@
     column-gap: 2rem;
     margin: 64px 0;
 }
+
+@media (max-width: 550px) {
+    .page-index_grid {
+        grid-template-columns: 1fr;
+        margin: 0 0;
+    }
+
+    .page-index_image {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}

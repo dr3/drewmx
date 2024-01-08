@@ -26,3 +26,15 @@ nav a:hover {
     display: flex;
     gap: 24px;
 }
+
+@media (max-width: 550px) {
+    nav {
+        display: block;
+    }
+
+    .nav-links {
+        justify-content: space-between;
+        gap: initial;
+        margin-top: 8px;
+    }
+}

@@ -18,12 +18,16 @@ export default function Index() {
         All photos taken with a Fujifilm X100S and edited using Lightroom
       </p>
       {photos.map((photo) => (
-        <a key={photo.url + "photo"} href={photo.url}>
+        <a
+          key={photo.url + "photo"}
+          href={photo.url}
+          className="page-photos_image_wrapper"
+        >
           <img
             src={photo.url}
             alt={photo.alt}
             className="page-photos_image"
-            style={{ aspectRatio: `${photo.height}/${photo.width}` }}
+            style={{ aspectRatio: `${photo.width}/${photo.height}` }}
           />
         </a>
       ))}

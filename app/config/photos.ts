@@ -1,8 +1,8 @@
 const photos = [
   {
     url: "/images/DSCF6575.jpg",
-    height: 4896,
-    width: 3264,
+    height: 3264,
+    width: 4896,
     alt: "",
   },
   {
@@ -13,21 +13,21 @@ const photos = [
   },
   {
     url: "/images/DSCF6518.jpg",
-    height: 3264,
-    width: 4896,
+    height: 4896,
+    width: 3264,
     alt: "",
   },
 
   {
     url: "/images/DSCF6571.jpg",
-    height: 4819,
-    width: 3213,
+    height: 3213,
+    width: 4819,
     alt: "",
   },
   {
     url: "/images/DSCF6573.jpg",
-    height: 3264,
-    width: 4896,
+    height: 4896,
+    width: 3264,
     alt: "",
   },
 ];
