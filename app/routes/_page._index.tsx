@@ -14,12 +14,6 @@ export default function Index() {
             primary website to utilise a new GraphQL layer that will serve data
             to millions of people!
           </p>
-          <p>
-            I’m a keen developer, always looking to learn about new technologies
-            and how it improve both the development and user experience. Feel
-            free to take a look at my <a href="/cv">CV</a>, I’m always
-            interested in hearing about new opportunities.
-          </p>
         </div>
       </div>
       <img
