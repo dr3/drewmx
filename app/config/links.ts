@@ -1,20 +1,20 @@
 const links = {
-  twitter: {
-    url: "https://twitter.com/drewmcmill",
-    text: "@drewmcmill",
-  },
+  instagram: { url: "https://www.instagram.com/drew.mx_", text: "@drew.mx_" },
+  email: { url: "mailto:hello@mcmill.co.uk", text: "hello@mcmill.co.uk" },
+  linkedin: { url: "https://www.linkedin.com/in/dr3", text: "@dr3" },
   github: {
     text: "@dr3",
     url: "https://github.com/dr3",
   },
-  email: { url: "mailto:hello@mcmill.co.uk", text: "hello@mcmill.co.uk" },
-  linkedin: { url: "https://www.linkedin.com/in/dr3", text: "@dr3" },
   threads: { url: "https://www.threads.net/@drew.mx_", text: "@drew.mx_" },
+  twitter: {
+    url: "https://twitter.com/drewmcmill",
+    text: "@drewmcmill",
+  },
   spotify: {
     url: "https://open.spotify.com/user/1118248995",
     text: "Drew McMillan",
   },
-  instagram: { url: "https://www.instagram.com/drew.mx_", text: "@drew.mx_" },
   mastodon: {
     url: "https://mastodon.social/@dr3w",
     text: "@dr3w@mastodon.social",
